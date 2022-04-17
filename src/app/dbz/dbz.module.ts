@@ -7,7 +7,9 @@ import { MainPageComponent } from './main-page/main-page.component';
 @NgModule({
   declarations: [
     MainPageComponent
-  ],
+  ],exports:[
+    MainPageComponent
+],
   imports: [
     CommonModule
   ]
