@@ -7,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent  {
 
-agregar(event:any):void{
+agregar():void{
   // event.preventDefault();
+  console.log("Es una prueba");
 }
   }
   
