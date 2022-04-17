@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent  {
 
-agregar():void{
-  console.log("sdfs");
+agregar(event:any):void{
+  // event.preventDefault();
 }
-}
+  }
+  
