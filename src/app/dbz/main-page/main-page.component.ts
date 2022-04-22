@@ -16,7 +16,9 @@ nuevo:Personaje={
 nombre:"Trunks",
 poder:8
 }
-
+cambiarNombre(event:any){
+  console.log(event.target.value);
+}
 agregar():void{
   // event.preventDefault();
   console.log("Es una prueba");

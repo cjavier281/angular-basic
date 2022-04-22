@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class ListadoComponent {
 
 heroes :string[] =['Spiderman','Batman','Hulk','Thor','Superman'];
- HeroeBorrado:string='';
+HeroeBorrado:string='';
 BorrarHeroe(){
   this.HeroeBorrado=this.heroes.shift()||'';
 }
