@@ -24,7 +24,9 @@ nuevo:Personaje={
   nombre:"Roshi",
   poder:30
 }
-
+  agregarNuevoPersonaje (event:Personaje){
+    this.personajes.push(event);
+  }
 }
   
   

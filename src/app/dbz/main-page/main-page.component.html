@@ -4,6 +4,9 @@
        <app-personajes [personajes]="personajes"></app-personajes>
     </div>
     <div  class="col">
-        <app-agregar-personajes [personajes]="personajes" [nuevo]="nuevo"></app-agregar-personajes>
+        <app-agregar-personajes  
+        [nuevo]="nuevo" (onNuevoPerdsonaje)="agregarNuevoPersonaje($event);"
+        >
+    </app-agregar-personajes>
     </div>   
 </div>
