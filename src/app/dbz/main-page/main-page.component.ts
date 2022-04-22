@@ -21,7 +21,7 @@ cambiarNombre(event:any){
 }
 agregar():void{
   // event.preventDefault();
-  console.log("Es una prueba");
+  console.log(this.nuevo);
 }
   }
   
