@@ -16,9 +16,13 @@
             <input 
             type="text" 
             placeholder="Nombre"
-            [value]="nuevo.nombre"
-            (input)="cambiarNombre($event)"
+            name="nombre"
+            [ngModel]="nuevo.nombre"
+
             >
+          <!--  [value]="nuevo.nombre"
+            (input)="cambiarNombre($event)"--> 
+    
             <input 
             type="number" 
             placeholder="Poder"
